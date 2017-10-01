@@ -1,0 +1,12 @@
+{
+    "eslint.enable": true,
+    "eslint.run": "onType",
+    "eslint.options": {
+        "configFile": ".eslintrc"
+    },
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "files.eol": "\n"
+}

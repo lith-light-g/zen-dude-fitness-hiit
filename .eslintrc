@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "printWidth": 100
+      }
+    ],
+    "arrow-parens": 0,
+    "react/jsx-filename-extension": 0
+  },
+  "env": {
+    "jest": true
+  }
+}
